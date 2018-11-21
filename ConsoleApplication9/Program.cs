@@ -10,6 +10,14 @@ namespace ConsoleApplication9
     {
         static void Main(string[] args)
         {
+
+            System.Net.WebClient wc = new System.Net.WebClient();
+            byte[] raw = wc.DownloadData("http://www.yoursite.com/resource/file.htm");
+
+            string webData = System.Text.Encoding.UTF8.GetString(raw);
+
+
+
         }
     }
 }
