@@ -15,7 +15,7 @@ namespace ConsoleApplication9
             byte[] raw = wc.DownloadData("http://www.yoursite.com/resource/file.htm");
 
             string webData = System.Text.Encoding.UTF8.GetString(raw);
-            fedgdgdgddddddddddddddddddddddddddddd
+           
 
 
 
